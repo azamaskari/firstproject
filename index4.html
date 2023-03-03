@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام</title>
+    <style>
+        tr,
+        td,
+        table {
+            border: 1px red solid;
+            /* background-color: rgb(237, 172, 148);*/
+        }
+    </style>
+</head>
+
+<body style="direction: rtl">
+
+    <div>
+        <form action="#" method="post">
+            <table style="border: 1px red solid;width: 60%;">
+
+                <tr>
+                    <td>نام<label for="firstName"></label>
+                    </td>
+                    <td><input type="text" name="firstName" id="" maxlength="10" placeholder="لطفا نام را وارد کنید" />
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="lastName"></label> نام خانوادگی</td>
+                    <td>
+
+                        <input type="text" name="lasttName" id="" maxlength="10" placeholder="لطفا نام خانوادگی را وارد کنید" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="email"></label> ایمیل</td>
+                    <td><input type="email" name="email" id="" maxlength="30" placeholder="لطفا ایمیل را وارد کنید" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>جنسیت</td>
+                    <td>
+                        <input type="radio" name="gender" id="" value="0" />خانم
+                        <input type="radio" name="gender" id="" value="1" />آقا
+                    </td>
+                </tr>
+                <tr>
+                    <td>مهارت ها</td>
+                    <td>
+
+                        <input type="checkbox" name="ch1" id="">c++
+                        <input type="checkbox" name="ch2" id="">java
+                        <input type="checkbox" name="ch3" id="">javascript
+                        <input type="checkbox" name="ch4" id="">php
+                        <input type="checkbox" name="ch5" id="">css
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>تصویر </td>
+                    <td>
+                        <input type="file" name="yourpic" id="" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>توضیحات </td>
+                    <td>
+                        <textarea name="desc" id="" cols="15" rows="5" maxlength="200">
+                    </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>محل تولد </td>
+                    <td>
+                        <select name="city" id="" disabled="disabled">
+                    
+                            <option value="021">tehran</option>
+                            <option value="051"  selected>mashhad</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colespan style="text-align:center;">
+
+                        <input type="submit" value="ثبت">
+                        <input type="reset" value="انصراف">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+    <div>
+        <iframe src="index.html" frameborder="0"></iframe>
+        <iframe src="index3.html" frameborder="0"></iframe>
+    </div>
+
+</body>
+
+</html>

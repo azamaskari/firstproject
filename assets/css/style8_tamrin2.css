@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+h1 {
+    padding: 5px;
+}
+
+ul.menu {
+    list-style-type: none;
+}
+
+ul.menu li a:link {
+    text-decoration: none;
+}
+
+ul.menu li a:visited {
+    color: green;
+}
+
+ul.menu li a:hover {
+    text-decoration: underline;
+}
+
+ul.menu li a:active {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+div.three {
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+div.two {
+    border-radius: 20px;
+    background-color: orchid;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+div.one {
+    background-color: gray;
+    text-align: center;
+    font-size: larger;
+}

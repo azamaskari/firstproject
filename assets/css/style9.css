@@ -1,0 +1,54 @@
+/*
+@font-face{}
+
+
+:root{}
+*/
+
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    margin: 0px;
+    text-align: center;
+}
+
+div.container {
+    max-width: 1400 px;
+    background-color: coral;
+    /*margin: auto 0 auto 0;*/
+}
+
+div.contaner ul.menu li {
+    list-style-type: none;
+}
+
+div.contaner ul.menu li a:link {
+    text-decoration: none;
+    color: black;
+    padding: 12 px;
+    background-color: cornflowerblue;
+    border-radius: 5 px;
+}
+
+div.contaner ul.menu li a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+div.contaner ul.menu li a:hover {
+    text-decoration: none;
+    color: brown;
+}
+
+div.contaner ul.menu li a:active {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+div.contaner ul.menu li {
+    display: inline-block;
+}

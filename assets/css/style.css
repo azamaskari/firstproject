@@ -1,0 +1,44 @@
+ /* * {
+     background-color: crimson;
+ }
+ 
+ body {
+     background-color: aqua;
+ } */
+ 
+ div {
+     background-color: rgb(201, 251, 2);
+     width: 60%;
+ }
+ 
+ p {
+     color: rgb(22, 10, 245);
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ #home {
+     color: black;
+ }
+ 
+ .txt {
+     color: chartreuse;
+ }
+ 
+ h1,
+ h2 {
+     color: rgb(109, 0, 252);
+ }
+ /* div>p {
+     color: brown;
+ } */
+ 
+ div p:nth-child(2) {
+     color: rgb(250, 20, 20);
+ }
+ 
+ div>div {
+     color: rgb(162, 187, 0);
+ }
